@@ -1,0 +1,139 @@
+
+There are 50 rows.
+There are 50 cols.
+bsyjaqnzbeifrimxvieisuabsaolkuwomesqlshcebadagrdoi
+jykapsnbmogmwdacufwqmeimoyfuasklotagvqvbugiszkeisa
+aeopeeofmouiyxeaijywvsmrengasyzdimolkefiwnzknwttyk
+qnbbgnphqharhyuyioduenyuoymnnauvgrdwwiikpowxpsoyyx
+abgotplkoawlbnwhjvuheyiatozocgveoxwndzwoeorjlsipki
+txueqwabifoerajiceerfttmkotkalurdyeaipznweqbadktrx
+ypfojpjxjrogqagjoohcxopixmvmwwlsjxajumjmwuvyiwewyr
+ympfeevkikzlupgakavzbjipnhjafkxtplecraguyhtvbnynfo
+lrquyuofphiuevjvzbkoycnykveayuteyloakaybgjuwuejtod
+hqzqtasnvccflbheffpmsmyymydciojbuwhuvmeqmluhyyuxau
+dhfugjbulyqnedfaekravtiuxehccqetchmwwgveviiqwoplnr
+fheequysseuhegntlwqyzytbcaaagzopuyxxbxpjgrdqsgakux
+ritqgdrwygfbnaqktbcaoucfevfbkvbacodmefywcpabvcetym
+tygguktesleoduqgcyosggflsppgyvirooehmcariqkzufzynk
+woocfecceozkrkyoognjuqlyviyushbpxpihozuumopzrbgkos
+unbayoixnyyooylqnculaeecdawtntxurboxorraheuhmmmuxt
+jybxloiuuliadcjoquimfkxouacbgkdjnpxjerauejszupheer
+iiwgikinouvdrbocogmyusderszterpuebopjupddvwykomymo
+auinhnquamjkisudmtyhygffupsexxuozeecavkjtncnnfplea
+hnmemgxsmuivadnfhcctoyshxfqyednrdpkahenyygquwymgma
+etunoyjysbzdqehcgaxrkuwvqixivtqrwdjduosahdtvtuphhh
+hnldpanhizvilydmtifeouzpgeonetuyevrkkakubthoyuyjoo
+lyglogysmwsfievszhkwuriutgywinijyeexrlzvdgtloajecu
+gdiyaddwqwjeicadpmyfneuojthpioqanhfazkhhjyahoyqzip
+xpwrxzdauqtasaseyyvaidouyedsayolieaafekgekbqnxkmmy
+aaoyttxdedqbmtjutrcthgthefnxwulrhgehouaonadgrhkahf
+sbdrajcajgofnxiktincigzrhoyylzauorodlepepuyhqaqnoe
+eisobeixvaeooyashtjjuoquoacwzjruezzczxufzkniaqhree
+axqsqvevpgrlyutfdwaxqkanvjvmwatnhrdajreecaiwoazauq
+scioaifgxyzxojgztbeujenioyjqasihxaaiveiuwmogdcucto
+nkosepjjiuqrheaydozdzgxlitfjfohgziieowfcqmhjmopiwy
+lsmyafeqqbaboyustoexexyxqvsokujlckzmpiaeamzeyqbahy
+wojcneimmasrsadhiysdylctfpfwoxhixmooceoyuexnqcaroi
+voaghoeeyuuponuuujewweomtevwosgbjxybertjhneioggvtu
+ssqrazycyokaekrucizfbiqszledihulpiofzsiuowguassibz
+eyzocsswrpxsoabpjxyalgecmdcezgleaencocpqopstcuzkye
+okryumoyuyistjwevcdwbxnwrnqoldloyupechzccizuoyvpki
+dtiuhepimbotctupagmruoifhgiyieyeuinitfuytzgnnufnlu
+wpvvhsbocxigsxuywkuycamyakecoivbeauedduafdukgjduzy
+xreunmafuhofcypwiykmqyqwqoulaicoqylbzqucqopulirhhj
+qvijatiuipljhlekgtwvoowzuajmayiaarjibapiponugaxbux
+fejulmoeptouiiqhrazbunvmiayebmtqonhvgkaqdhckuotakr
+iiwucnkexsuhfubizchvjthuzyujtquiaqjeipuleouzdmemge
+rlowdewhsfvqnuimbrdzyqxmelnaiuvujnyvuskdzstyaaytwa
+useasfvifulcasfvhecautekbsuyyvibhdgkiufdiitaoupqdl
+coziooiehyuwitjfdbdoutmhfezfeygyenknanhjvyvohpyaue
+opbicewuovozfariaxciienmyoumidpgkukvuzezxtlxsspyfq
+uvpxledioyjydeuecurnupeyguzpekewbcmxpdnimkinqneeoa
+wxoasxepjpzwpeikprmialpcdaxmyfslcmcobdiszurjjyeloc
+voysihuwoqxzbemhajibnontvybaawtodzvkkbpehhzpimqtrp
+SE (1, 26):    fan
+E  (1, 39):    bug
+SE (2, 23):    root
+E  (2, 26):    gas
+NE (3, 4):    gen
+SW (4, 45):    say
+E  (5, 15):    ice
+NE (7, 20):    bot
+N  (8, 39):    bum
+SW (9, 16):    fan
+SE (9, 17):    fry
+SW (10, 6):    bug
+W  (10, 20):    var
+W  (10, 26):    hex
+NW (11, 20):    zap
+NE (12, 9):    gun
+S  (12, 18):    con
+W  (12, 34):    doc
+S  (13, 16):    con
+N  (13, 19):    say
+NE (13, 35):    hex
+SW (14, 35):    hop
+NW (15, 2):    bot
+E  (15, 33):    box
+NW (15, 49):    toy
+SW (16, 33):    peon
+W  (17, 23):    eds
+SE (17, 30):    pod
+NW (18, 15):    doc
+NW (18, 17):    tool
+E  (18, 24):    ups
+W  (18, 25):    puff
+N  (18, 32):    zen
+SW (19, 18):    cat
+SW (19, 18):    cats
+E  (19, 19):    toy
+E  (19, 19):    toys
+N  (19, 48):    meme
+N  (20, 9):    bum
+N  (20, 13):    eds
+SE (20, 13):    eds
+NW (20, 29):    tee
+NE (21, 18):    frog
+E  (22, 27):    win
+S  (23, 13):    cat
+NE (23, 32):    nerd
+E  (23, 47):    zip
+W  (24, 9):    quad
+N  (24, 15):    eds
+E  (24, 25):    eds
+E  (24, 27):    say
+SW (25, 11):    boa
+NE (25, 18):    can
+S  (26, 9):    gag
+E  (26, 17):    inc
+W  (27, 15):    say
+SE (27, 46):    hat
+N  (28, 9):    gag
+SE (30, 26):    foo
+NE (31, 46):    bit
+SE (33, 3):    gas
+SW (33, 31):    bug
+E  (35, 40):    ops
+S  (35, 44):    con
+E  (37, 9):    bot
+N  (37, 41):    zip
+NE (38, 20):    con
+S  (38, 31):    boa
+SW (38, 44):    gun
+NW (39, 36):    zen
+SW (39, 42):    pod
+SE (40, 7):    ups
+W  (40, 44):    gun
+S  (41, 49):    real
+NW (42, 11):    hop
+N  (42, 17):    cat
+S  (44, 45):    ups
+SE (45, 3):    ice
+NW (45, 44):    hat
+E  (46, 3):    ice
+S  (46, 48):    foo
+SE (47, 37):    die
+NW (48, 3):    app
+83 words found
+Found all words in 0.003955 seconds
+3

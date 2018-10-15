@@ -1,0 +1,12 @@
+
+There are 4 rows.
+There are 7 cols.
+vztsodt
+paxztaq
+aceetfj
+ohtaaoe
+W  (2, 4):    tee
+N  (3, 2):    text
+2 words found
+Found all words in 6.3e-05 seconds
+0
