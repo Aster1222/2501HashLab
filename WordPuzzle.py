@@ -131,7 +131,7 @@ def getWordInGrid(startRow, startCol, dir, len, numRows, numCols):
 
 def main():
 
-    args = ["words2.txt", "300x300.grid.txt"]  # sys.argv[1:]
+    args = ["words.txt", "300x300.grid.txt"]  # sys.argv[1:]
     global grid
     grid, rows, cols = readInGrid(args[1])  # reads the grid file into the variable 'grid'
     global switch
