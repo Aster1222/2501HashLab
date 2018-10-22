@@ -2,7 +2,7 @@
 The functions getWordInGrid and readInGrid, as well as the testing files, were originally written by Aaron Bloomfield in 2009 for CS2150.
 This skeleton was adapted from my C++ implementation of CS2150 Lab 6: Hash Lab.
 """
-
+import sys
 import time
 import HashTable
 
@@ -131,7 +131,7 @@ def getWordInGrid(startRow, startCol, dir, len, numRows, numCols):
 
 def main():
 
-    args = ["words2.txt", "300x300.txt"]
+    args = ["words2.txt", "300x300.grid.txt"]  # sys.argv[1:]
     global grid
     grid, rows, cols = readInGrid(args[1])  # reads the grid file into the variable 'grid'
     global switch
@@ -150,27 +150,25 @@ def main():
 
     count = 0
     prevWord = ""
-    printQueue1 = []
-    printQueue2 = []
-    printQueue3 = []
-    printQueue4 = []
 
     timer = time.time()
     longestWord = 25
+    outputFile = open("out.txt", "w")
     for r1 in range(rows):
         for c1 in range(cols):
             for d in range(8):
-                for l in range(3, longestWord):
+                for l in range(3, longestWord):  # These loops iterate through each position, then in each direction and length.
                     word = getWordInGrid(r1, c1, d, l, rows, cols)
+                    if word == prevWord:
+                        continue
+                    prevWord = word
+                    test = hashTable.find(word)  # Ensures that the same word is not searched multiple times when the end of the grid is reached
 
-                    test = hashTable.find(word)
-
-                    if test:
-                        print(switch[d].__name__ + " (" + str(r1) + ", " + str(c1) + "):    " + word)
-
+                    if test:                        # Writes the found words to the file
+                        outputFile.write(switch[d].__name__ + " (" + str(r1) + ", " + str(c1) + "):    " + word + "\n")
                         count += 1
-
     timer = time.time() - timer
+    outputFile.close()
     print(str(count) + " words found")
     print("Found all words in " + str(timer) + " seconds")
     return 0
