@@ -44,13 +44,17 @@ class HashTable:
         for i in range(1, 25):
             self.exponentials[i] = self.num * self.exponentials[i - 1]
 
+        self.quadratics = [-1] * 1000
+        for q in range(0, 1000):
+            self.quadratics[q] = q * q
+
     def insert(self, s):
         loc = self.hash(s)
         mod = loc
         count = 0
         while self.marker[loc] and self.table[loc] != s:
 
-            loc = (mod + 1) % self.ts
+            loc = (mod + self.quadratics[count]) % self.ts
             count += 1
             self.collisions += 1
         if self.table[loc] != s:
@@ -66,7 +70,7 @@ class HashTable:
         while self.marker[loc]:
             if self.table[loc] == s:
                 return self.marker[loc]
-            loc = (mod + 1) % self.ts
+            loc = (mod + self.quadratics[count]) % self.ts
             count += 1
         return 0
 
@@ -76,6 +80,7 @@ class HashTable:
                 print(self.table[i])
 
     def view(self):
+        print("Hash uses exponentials of " + str(self.exponentials[1]))
         print("Max LoadFactor: " + str(self.maxLoadFactor))
         print("Current Load Factor: " + str(self.load))
         print("Current number of elements: " + str(self.num_elements))

@@ -130,8 +130,9 @@ def getWordInGrid(startRow, startCol, dir, len, numRows, numCols):
 
 
 def main():
-
-    args = ["words.txt", "300x300.grid.txt"]  # sys.argv[1:]
+    dict = input("Enter the dictionary filename: ")  # ex: words.txt
+    grd = input("Enter the grid filename: ")  # ex: 4x7.grid.txt
+    args = [dict, grd]
     global grid
     grid, rows, cols = readInGrid(args[1])  # reads the grid file into the variable 'grid'
     global switch
@@ -147,11 +148,9 @@ def main():
 
     hashTable = HashTable.HashTable(size, 0.2)
     hashTable = readInDict(args[0], hashTable)  # creates the Hash Table and inserts the words from the dictionary file into it.
-
     count = 0
     prevWord = ""
-
-    timer = time.time()
+    timer = time.time()  # 'start' the timer
     longestWord = 25
     outputFile = open("out.txt", "w")
     for r1 in range(rows):
@@ -159,10 +158,11 @@ def main():
             for d in range(8):
                 for l in range(3, longestWord):  # These loops iterate through each position, then in each direction and length.
                     word = getWordInGrid(r1, c1, d, l, rows, cols)
-                    if word == prevWord:
+
+                    if word == prevWord:  # Ensures that the same word is not searched multiple times when the end of the grid is reached
                         continue
                     prevWord = word
-                    test = hashTable.find(word)  # Ensures that the same word is not searched multiple times when the end of the grid is reached
+                    test = hashTable.find(word)
 
                     if test:                        # Writes the found words to the file
                         outputFile.write(switch[d].__name__ + " (" + str(r1) + ", " + str(c1) + "):    " + word + "\n")
